@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+
+    <Button
+        android:id="@+id/baseBtn"
+        android:text="기준 위젯!"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"/>
+    <!--android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"-->
+
+    <Button
+        android:text="1번"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/baseBtn"
+        android:layout_alignTop="@+id/baseBtn"/>
+
+    <Button
+        android:layout_alignBaseline="@+id/baseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/baseBtn"
+        android:text="2번"/>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/baseBtn"
+        android:text="3번"
+        android:layout_alignBottom="@+id/baseBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/baseBtn"
+        android:layout_toRightOf="@+id/baseBtn"
+        android:text="4번"/>
+
+    <Button
+        android:layout_alignLeft="@+id/baseBtn"
+        android:layout_above="@+id/baseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5번"/>
+
+    <Button
+        android:layout_below="@+id/baseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/baseBtn"
+        android:text="6번"/>
+        <!--android:layout_alignBaseline="@+id/baseBtn"-->
+
+
+    <Button
+        android:id="@+id/baseBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="기준1"/>
+
+    <Button
+        android:id="@+id/baseBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="기준2"/>
+
+    <Button
+        android:text="7번"
+        android:layout_toRightOf="@+id/baseBtn1"
+        android:layout_above="@+id/baseBtn2"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

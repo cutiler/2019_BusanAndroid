@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:id="@+id/textId"
+            android:text="id"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent" />
+        
+        <TextView
+            android:text="title"
+            android:id="@+id/textTitle"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="match_parent" />
+        
+        <TextView
+            android:text="content"
+            android:id="@+id/textContent"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent" />
+
+        <!--android:background="@android:color/white"
+        android:src="@drawable/icon_close_black"-->
+
+        <ImageView
+            android:id="@+id/closeBtn"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/icon_close_white"
+            android:padding="5dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
