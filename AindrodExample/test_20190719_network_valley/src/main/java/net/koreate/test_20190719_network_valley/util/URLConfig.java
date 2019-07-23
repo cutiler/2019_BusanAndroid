@@ -8,4 +8,6 @@ public interface URLConfig {
 
     String TEST1_URL = BASE+"/test1";
 
+    String TEST_UPLOAD = BASE+"/imgUpload";
+
 }

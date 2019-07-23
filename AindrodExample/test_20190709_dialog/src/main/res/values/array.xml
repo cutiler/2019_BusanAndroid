@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dog_list">
+        <item>웰시코기</item>
+        <item>푸들</item>
+        <item>진돗개</item>
+        <item>말티즈</item>
+        <item>비글</item>
+    </string-array>
+</resources>
